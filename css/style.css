@@ -1,0 +1,84 @@
+body {
+    /*background-color: #fff7f8;*/
+    background-image: url("https://64.media.tumblr.com/10843d52c8f3119f03b1e33115d4c4a2/tumblr_nj9sekYTSf1tf8vylo1_1280.png"
+);
+}
+
+* {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.centralize {
+    text-align: center;
+}
+/*fakebook is title*/
+.title_style {
+    font-family: Impact;
+    color: #6495ED;
+}
+/*where from, study*/
+.small_text_style {
+    color: #3a3b3c;
+}
+
+.liked_pages_style {
+    font-weight: bold;
+    color: white;
+    margin: 25px 70px;
+    border-left: 10px solid pink;
+    background-color: rgba(179, 138, 118, 0.6)
+}
+
+.liked_pages_style:hover {
+    color: #9900cc;
+
+}
+/*list of liked pages*/
+ul {
+    margin-left: 55px;
+}
+/*liked pages links when visited, hover, etc*/
+a:link {
+    color:black;
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: lightgray;
+}
+/*my name hover color*/
+.name:hover {
+    color: #9900cc;
+}
+/*font for all except fakebook*/
+.except_title {
+    font-family: Oldtown;
+}
+/*make image a top of other*/
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    border: 1px solid #000000;
+    border-radius: 80%;
+}
+/*button add friend*/
+#add_friend {
+    position: relative;
+    left:450px;
+    color: skyblue;
+}
